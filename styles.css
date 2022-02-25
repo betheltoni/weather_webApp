@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background-color: #222;
+  font-family: "Merriweather", serif;
+}
+
+.searchCard {
+  background-color: #000000d0;
+  color: white;
+  padding: 2em;
+  border-radius: 30px;
+  width: 70%;
+  max-width: 600px;
+  margin: 2% auto 0 auto;
+}
+.searchCard .searchBar {
+  border: none;
+  outline: none;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+  color: white;
+  background-color: #7c7c7c2b;
+  font-family: inherit;
+  width: 70%;
+}
+.searchCard .searchBtn {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 30px;
+  background-color: #7c7c7c2b;
+  color: white;
+  opacity: 0.3;
+}
+.searchCard .searchBtn:hover {
+  background-color: #7c7c7c6b;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.searchCard .clearBtn {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 30px;
+  background-color: #7c7c7c2b;
+  color: white;
+  opacity: 0.3;
+}
+.searchCard .clearBtn:hover {
+  background-color: #7c7c7c6b;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.weatherCard {
+  background-color: #000000d0;
+  color: white;
+  padding: 2em;
+  border-radius: 30px;
+  width: 70%;
+  margin: 2%;
+}
+
+.flex {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.delete:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+.city {
+  margin-top: 0;
+  margin-bottom: 0;
+}/*# sourceMappingURL=styles.css.map */
